@@ -54,4 +54,5 @@
 .bullets i{
     margin: 0 5px;
     color: whitesmoke;
+    cursor: pointer;
 }

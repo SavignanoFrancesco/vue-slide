@@ -22,6 +22,7 @@
                     <div class="bullets">
                         <i v-for="(img, index) in imgs"
                             v-bind:class="index == img_index ? 'fas' : 'far'"
+                            @click="bulletClick(index)"
                             class="fa-circle"></i>
                     </div>
                 </div>

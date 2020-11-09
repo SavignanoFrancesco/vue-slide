@@ -30,6 +30,9 @@ var app = new Vue(
                     this.img_index = this.imgs.length - 1;
                 }
 
+            },
+            bulletClick(bullet_index){
+                this.img_index = bullet_index;
             }
         },
         mounted() {

@@ -1,1 +1,1 @@
-vue-slide
+vue-slider
